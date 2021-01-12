@@ -10,42 +10,42 @@ $(document).ready(function() {
 
             if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial u} \\over {\\partial x}}  + {{\\partial v} \\over {\\partial y}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 0) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial v} \\over {\\partial y}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 0) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial u} \\over {\\partial x}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 0) ) {
                 $('#eighth').html("\\({{\\partial u} \\over {\\partial x}}  + {{\\partial v} \\over {\\partial y}} = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 0) && ($('#fourth').attr('data-click-state') == 0) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MMathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 0) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 0) ) {
                 $('#eighth').html("\\({{\\partial v} \\over {\\partial y}} = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 0) && ($('#sixth').attr('data-click-state') == 0) ) {
                 $('#eighth').html("\\({{\\partial u} \\over {\\partial x}} = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else {
-                $('#eighth').html("\\(0=0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                $('#eighth').html("\\(0\\)");
+                MathJax.startup.defaultReady();
             }
         }
         
@@ -58,42 +58,42 @@ $(document).ready(function() {
 
             if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}} + {{\\partial u} \\over {\\partial x}}  + {{\\partial v} \\over {\\partial y}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 0) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}} + {{\\partial v} \\over {\\partial y}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 0) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}} + {{\\partial u} \\over {\\partial x}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 0) ) {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}} + {{\\partial u} \\over {\\partial x}}  + {{\\partial v} \\over {\\partial y}} = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 0) && ($('#fourth').attr('data-click-state') == 0) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 0) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 0) ) {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}} + {{\\partial v} \\over {\\partial y}} = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 0) && ($('#sixth').attr('data-click-state') == 0) ) {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}} + {{\\partial u} \\over {\\partial x}} = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
 
             else {
                 $('#eighth').html("\\({{\\partial \\rho} \\over {\\partial t}}  = 0\\)");
-                MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+                MathJax.startup.defaultReady();
             }
         }
 
@@ -143,7 +143,7 @@ $('#third').on('click', function() {
         }
 
         else {
-            $('#eighth').html("\\(0=0\\)");
+            $('#eighth').html("\\(0\\)");
             MathJax.startup.defaultReady();
         }
     }
@@ -242,7 +242,7 @@ $('#fourth').on('click', function() {
         }
 
         else {
-            $('#eighth').html("\\(0=0\\)");
+            $('#eighth').html("\\(0\\)");
             MathJax.startup.defaultReady();
         }
     }
@@ -342,7 +342,7 @@ $('#sixth').on('click', function() {
         }
 
         else {
-            $('#eighth').html("\\(0=0\\)");
+            $('#eighth').html("\\(0\\)");
             MathJax.startup.defaultReady();
         }
     }

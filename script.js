@@ -44,7 +44,7 @@ $(document).ready(function() {
             }
 
             else {
-                $('#eighth').html("\\(0\\)");
+                $('#eighth').html("\\(0=0\\)");
                 MathJax.startup.defaultReady();
             }
         }
@@ -143,7 +143,7 @@ $('#third').on('click', function() {
         }
 
         else {
-            $('#eighth').html("\\(0\\)");
+            $('#eighth').html("\\(0=0\\)");
             MathJax.startup.defaultReady();
         }
     }
@@ -242,7 +242,7 @@ $('#fourth').on('click', function() {
         }
 
         else {
-            $('#eighth').html("\\(0\\)");
+            $('#eighth').html("\\(0=0\\)");
             MathJax.startup.defaultReady();
         }
     }
@@ -342,7 +342,7 @@ $('#sixth').on('click', function() {
         }
 
         else {
-            $('#eighth').html("\\(0\\)");
+            $('#eighth').html("\\(0=0\\)");
             MathJax.startup.defaultReady();
         }
     }

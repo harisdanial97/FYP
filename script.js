@@ -5,7 +5,7 @@ $(document).ready(function() {
         if($('#first').attr('data-click-state') == 1) {
             $('#first').attr('data-click-state', 0);
             $('#first').html("\\(\\require{cancel}\\cancelto{0} {{\\partial \\rho} \\over {\\partial t}}\\)");
-            
+            $('#first').css('color', 'black');
             document.getElementById("myform1").style.visibility = "hidden";
 
             if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {
@@ -104,7 +104,7 @@ $('#third').on('click', function() {
     if($('#third').attr('data-click-state') == 1) {
         $('#third').attr('data-click-state', 0);
         $('#third').html("\\(\\require{cancel}\\cancelto{0} {{\\partial u} \\over {\\partial x}}\\)");
-        $('#third').css('color', 'red');
+        $('#third').css('color', 'black');
         document.getElementById("myform2").style.visibility = "visible";
 
         if(($('#first').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {
@@ -203,7 +203,7 @@ $('#fourth').on('click', function() {
     if($('#fourth').attr('data-click-state') == 1) {
         $('#fourth').attr('data-click-state', 0);
         $('#fourth').html("\\(\\require{cancel}\\cancelto{0} {{\\partial v} \\over {\\partial y}}\\)");
-        $('#fourth').css('color', 'red');
+        $('#fourth').css('color', 'black');
         document.getElementById("myform3").style.visibility = "visible";
 
         if(($('#first').attr('data-click-state') == 1) && ($('#third').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {

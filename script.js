@@ -6,7 +6,7 @@ $(document).ready(function() {
             $('#first').attr('data-click-state', 0);
             $('#first').html("\\(\\require{cancel}\\cancelto{0} {{\\partial \\rho} \\over {\\partial t}}\\)");
             $('#first').css('color', 'red');
-            document.getElementById("myform1").style.visibility = "visible";
+            document.getElementById("myform1").style.visibility = "hidden";
 
             if(($('#third').attr('data-click-state') == 1) && ($('#fourth').attr('data-click-state') == 1) && ($('#sixth').attr('data-click-state') == 1) ) {
                 $('#eighth').html("\\({{\\partial u} \\over {\\partial x}}  + {{\\partial v} \\over {\\partial y}} + {{\\partial w} \\over {\\partial z}}  = 0\\)");

@@ -1,0 +1,143 @@
+p {
+  font-size: 30px;
+}
+
+.special {
+  font-size: 30px;
+  visibility: hidden;
+}
+
+span {
+  font-weight: bold;
+}
+
+
+.eighth {
+	font-size: 30px;
+	color: black;
+	display: block;
+	margin-top: 25px;
+}
+
+.ninth {
+	visibility: hidden;
+	font-weight: bold;
+}
+
+.tenth {
+	visibility: hidden;
+	font-weight: bold;
+}
+
+.eleventh {
+	visibility: hidden;
+	font-weight: bold;
+}
+mjx-menclose{
+	top: -15px;
+}
+mjx-block {
+    display: block;
+    top: -15px;
+}
+.twelfth {
+	visibility: hidden;
+	font-weight: bold;
+}
+.thirteenth {
+	color: green;
+	visibility: hidden;
+}
+
+.fourteenth {
+	color: green;
+	visibility: hidden;
+}
+
+.fifteenth {
+	color: red;
+	visibility: hidden;
+}
+
+.sixteenth {
+	color: green;
+	visibility: hidden;
+}
+
+.nineteenth {
+	visibility: visible;
+}
+
+.final {
+	visibility: visible;
+}
+
+.myform1 {
+	visibility: hidden;
+	width: 60%;
+	text-align: center;
+	margin:auto;
+	position: relative;
+	left: -20px;
+}
+
+.myform2 {
+	visibility: hidden;
+	width: 60%;
+	text-align: center;
+	margin:auto;
+}
+
+.myform3 {
+	visibility: hidden;
+	width: 60%;
+	text-align: center;
+	margin:auto;
+}
+
+.myform4 {
+	visibility: hidden;
+	width: 60%;
+	text-align: center;
+	margin:auto;
+}
+
+.Assumptions1 {
+	width: 80%;
+}
+
+.Assumptions2 {
+	width: 66%;
+}
+
+.Assumptions3 {
+	width: 50%;
+}
+
+.Assumptions4 {
+	width: 64%;
+}
+.clear{
+	clear:both;
+}
+.main_grid{
+	display: grid;
+	grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+	max-width: 450px;
+	text-align: center;
+	height: 50px;
+}
+.main_grid2{
+	display: grid;
+	grid-template-columns: 20% 25% 30% 25%;
+	max-width: 410px;
+	text-align: center;
+}
+.nineteenth mjx-menclose {
+    position: relative;
+    top: 0px;
+}
+.nineteenth mjx-mpadded {
+    position: relative;
+    top: 12px;
+}

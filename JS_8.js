@@ -458,8 +458,8 @@ jQuery("#Assumptions3").select().on("change", function() {
 	
 	
 	if(Assumptions3_check == 0){
-		first_section += 1;
-		Assumptions3_check = 1;
+		first_section += 0;
+		Assumptions3_check = 0;
 	}
 	
 } else {

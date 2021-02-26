@@ -612,4 +612,3 @@ function myFunction4() {
    if(secound_section == 4){jQuery(".final").show();} else{jQuery(".final").hide();}
 }
 
-
